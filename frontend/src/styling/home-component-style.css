@@ -1,0 +1,148 @@
+.big-container{
+  margin-bottom: 100px;
+}
+.big-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .big-image {
+    max-width: 600px;
+    height: auto;
+    margin-left: 150px;
+    margin-right: 50px;
+  }
+  
+.text-info-container {
+  margin-right:250px;
+  color: #ffffff;
+}
+  
+
+.small-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.small-text-info-container {
+  max-width: 70%;
+  color: #acacac;
+  margin-left: 150px; 
+}
+
+.small-title {
+  font-size: 45px;
+  font-weight: 700;
+  color: #3498db; 
+  margin-bottom: 30px;
+}
+
+.small-subtitle{
+  font-size: 25px;
+  font-weight: 600;
+  color: #aabaff; 
+  margin-bottom: 10px;
+}
+
+.small-text {
+  font-size: 17px;
+  max-width: 600px;
+  color: #ffffff;
+  line-height: 1.5;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.small-image {
+  max-width: 600px;
+  height: auto;
+}
+
+
+.small-image-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+
+
+.flying-card-container {
+  position: relative;
+  width: 100%;
+}
+
+.flying-card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.flying-text-container {
+  flex: 1;
+}
+
+.flying-title {
+  font-size: 24px;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.flying-text {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.flying-image-container {
+  width: 200px; 
+  height: 200px;
+  background-image: url('./images/a.png');
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+
+.category-bg {
+  background-image: url(assets/img/illustrations/category-bg.png);
+  background-position: right top;
+  background-size: 200px 320px;
+}
+
+
+
+
+.fit-border-box {
+  position: relative;
+  max-width: 350px;
+  padding: 15px;
+  padding-left: 100px;
+  margin-top: 200px;
+  background-color: rgb(255, 255, 255);
+  text-align: justify;
+  z-index: 0;
+  width: fit-content;
+  border-radius: 20%;
+  margin-left: 20%;
+}
+
+.fit-border-box img {
+  position: absolute;
+  width: 200px;
+  margin-top: -80px;
+  margin-left: -50px;
+  left: 0;
+  z-index: 0;
+}
+.fit-border-box p{
+  width: fit-content;
+}

@@ -1,0 +1,271 @@
+.contact-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: row;
+}
+
+.contact-card {
+  margin: 40px;
+  margin-left: 0;
+  max-width: 800px;
+  background-color: var(--card-color);
+  z-index: 1;
+}
+.contact-background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background-image: url("./images/756.jpg"); 
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  z-index: -1;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  height: 70vh;
+  background: var(--bg-color);
+}
+
+.left-col {
+  width: 50vw;
+  height: 100%;
+  background-image: url("./images/aa.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-col {
+  background: var(--bg-color);
+  width: 50vw;
+  height: 100%;
+  padding: 5rem 3.5rem;
+}
+
+h1, label, button, .description {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  color:var(--h1-color);
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 300;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 0.9rem;
+  letter-spacing: 0.01rem;
+  width: 40vw;
+  margin: 0.25rem 0;
+}
+
+
+.contact-text-center {
+  text-align: center;
+}
+
+.contact-text-subcenter {
+  text-align: center;
+  color: #000000;
+}
+
+@keyframes continuousFade {
+  0% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+
+/* Heading styles with animation */
+.continuous-animation {
+  font-size: 2em;
+  margin: 20px 0;
+  color: #000000;
+  animation: continuousFade 5s infinite;
+  margin-top: -50px;
+
+}
+
+.contact-text-subcenter {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.contact-form{
+  font-family: 'Jost', sans-serif;
+}
+
+label, .description {
+  color: black;
+  text-transform: uppercase;
+  font-size: 0.800rem;
+  font-weight: bold;
+}
+
+form {
+  width: 31.25rem;
+  position: relative;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+input, textarea, label {
+  width: 40vw;
+  display: block;
+}
+
+p, placeholder, input, textarea {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgb(207, 207, 207);
+}
+
+input, textarea {
+  color: black;
+  font-weight: 500;
+  background: var(--bg-color);
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: 300;
+  background: var(--button-color);
+  color: var(--bg-color);
+  width: 10rem;
+  height: 2.25rem;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+input:hover, textarea:hover, button:hover {
+  opacity: 0.5;
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+
+.text-subcenter {
+  margin-top:10px;
+  margin-left: 5px;
+  font-size: 20px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+  
+}
+
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 160px;
+  position: absolute;
+  top: 0.5rem;
+  right: 0;
+}
+
+.description {
+    margin-left: 1.25rem;
+  }
+
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 0.25rem;
+  content: "";
+  width: 26px;
+  height: 26px;
+  left: 0.25rem;
+  position: absolute;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: var(--button-color);
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#error, #success-msg {
+  width: 40vw;
+  margin: 0.125rem 0;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-family: 'Jost';
+  color: var(--secondary-color);
+  }
+
+#submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+  background-color: #45a049;
+}
