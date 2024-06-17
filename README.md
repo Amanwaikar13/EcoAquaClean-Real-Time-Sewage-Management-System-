@@ -6,13 +6,13 @@ The Real-Time Sewage Management System is designed to monitor and manage sewage 
 I have conducted practical sessions to implement this system, capturing real-time data using sensors and processing it for meaningful insights. Below are the images from the practical sessions:
 
 <div style="display: flex; flex-direction: row; gap: 10px;">
-  <img src="images/image1.jpeg" alt="Practical Image 1" height="700" width="500">
-  <img src="images/image2.jpeg" alt="Practical Image 2" height="600" width="500">
+  <img src="images/image1.jpeg" alt="Practical Image 1" height="600" width="400">
+  <img src="images/image2.jpeg" alt="Practical Image 2" height="400" width="400">
 </div>
 
 <div style="text-align: center;">
-  <img src="images/graph1.jpeg" alt="Data Visualization Graph 1" height="305" width="500">
-  <img src="images/graph2.jpeg" alt="Data Visualization Graph 2" width="500">
+  <img src="images/graph1.jpeg" alt="Data Visualization Graph 1" height="305" width="400">
+  <img src="images/graph2.jpeg" alt="Data Visualization Graph 2" width="400">
 </div>
 
 ## Sensors Used
